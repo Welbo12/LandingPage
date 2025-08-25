@@ -1,0 +1,146 @@
+
+.quatre-app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ background-color: #F1F1F1;
+  font-family: Arial, sans-serif;
+}
+
+
+.quatre-card-container {
+  background: #000;
+  color: white;
+  border-radius: 24px;
+  padding: 40px;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.quatre-cards {
+  display: flex;
+  position: relative;
+}
+
+.quatre-card {
+  width: 240px;
+  height: 320px;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  color: white;
+  position: relative;
+}
+
+.quatre-card1 {
+  background: linear-gradient(135deg, #ec4899, #8b5cf6, #3b82f6);
+  transform: rotate(-6deg);
+  margin-right: -60px;
+  z-index: 5;
+}
+
+.quatre-card2 {
+  background: linear-gradient(135deg, #fde68a, #6ee7b7, #60a5fa);
+  z-index: 10;
+}
+
+
+.quatre-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.quatre-logo {
+  font-weight: bold;
+}
+
+.quatre-chip {
+  width: 24px;
+  height: 24px;
+  background: white;
+  border-radius: 6px;
+}
+
+.quatre-name {
+  margin-top: 140px;
+  font-weight: bold;
+}
+
+.quatre-expiry {
+  font-size: 14px;
+}
+
+.quatre-visa {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+
+.quatre-text-section {
+  max-width: 400px;
+  margin-left: 40px;
+}
+
+.quatre-text-section h1 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.quatre-text-section p {
+  color: #9ca3af;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+
+.quatre-slider {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.quatre-dot {
+  width: 24px;
+  height: 8px;
+  border-radius: 6px;
+  background: #374151;
+}
+
+.quatre-dot.active {
+  background: #8b5cf6;
+  width: 40px;
+} */
+/* Styles existants restent les mêmes
+
+/* Assurez-vous que les cartes affichent correctement les images de fond */
+.quatre-card {
+  width: 240px;
+  height: 320px;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  color: white;
+  position: relative;
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
+
+/* Supprimez ou ajustez les dégradés si vous utilisez des images */
+.quatre-card1 {
+  transform: rotate(-6deg);
+  margin-right: -60px;
+  z-index: 5;
+  /* Supprimez le dégradé si vous utilisez une image : background: none; */
+}
+
+.quatre-card2 {
+  z-index: 10;
+  /* Supprimez le dégradé si vous utilisez une image : background: none; */
+}

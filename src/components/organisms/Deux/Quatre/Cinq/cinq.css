@@ -1,0 +1,38 @@
+/* Wrapper qui centre l'élément sans toucher au body */
+.video-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;  /* prend toute la hauteur visible */
+  width: 100%;
+}
+
+.video-card {
+  width: 800px;
+  height: 400px;
+  background: #333; /* couleur de fond sombre */
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.video-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.play-button {
+  font-size: 4rem;
+  cursor: pointer;
+}

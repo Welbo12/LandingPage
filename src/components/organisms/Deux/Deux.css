@@ -1,0 +1,218 @@
+/* .deux {
+  
+  display: flex;
+  justify-content: start;
+
+  background-color: #F1F1F1;
+
+}
+
+.deux-content {
+ 
+  text-align: center;
+ width: 400px;
+ text-align: left;
+ font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+font-size: 16px;
+line-height: 133%;
+letter-spacing: 0%;
+text-align: justify;
+padding: 40px;
+
+
+
+}
+
+.deux-content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #000;
+ 
+}
+
+.deux-content h1 span {
+  display: block;
+}
+.hea {
+  background: transparent;
+  border: none;
+  color: #1A1A1A;
+
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.hea .arrow {
+  display: inline-block;
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+}
+
+.hea:hover .arrow {
+  transform: translateX(5px); 
+}
+
+.jj{
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 96px;
+    line-height: 100%;
+letter-spacing: 0%;
+width: 300px;
+height: 90px;
+}
+.jjj{
+    position: relative;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #1A1A1A;
+    color: #F1F1F1;
+    font-size: 96px;
+    line-height: 100%;
+letter-spacing: 0%;
+width: 280px;
+height: 90px;
+
+}.jjjj{
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 96px;
+    line-height: 100%;
+letter-spacing: 0%;
+width: 300px;
+height: 90px;
+} */
+
+.deux {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 60px 80px;
+  gap: 60px;
+  font-family: 'Archivo', sans-serif;
+  height: 84vh;
+    overflow: hidden;
+   
+}
+
+
+.deux-content {
+background: #F1F1F1;
+padding-left: 200px;
+width: 300px;
+
+}
+
+.deux-content h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.deux-content h1 span {
+  display: block;
+}
+
+.deux-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.hea {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.hea .arrow {
+  display: inline-block;
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+}
+
+.hea:hover .arrow {
+  transform: translateX(5px);
+}
+
+/* Cartes à droite */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  min-width: 220px;
+  text-align: center;
+}
+
+.card h2 {
+  font-family: 'Clash Display', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Couleurs */
+.card.light {
+  background: #fff;
+}
+
+.card.dark {
+  background: #111;
+  color: #fff;
+}
+
+.card.dark p {
+  color: #ccc;
+}
+
+
+.green {
+  background: linear-gradient(90.19deg, #83FF8F -13.58%, #CC7FF0 120.82%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

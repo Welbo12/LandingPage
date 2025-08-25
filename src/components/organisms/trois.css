@@ -1,0 +1,173 @@
+/* 
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: #fff;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+
+.dark {
+  background: #111;
+  color: #fff;
+}
+
+.light {
+  background: #fff;
+  color: #111;
+}
+
+.wide {
+  grid-column: span 2;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #eaeaea;
+  margin-bottom: 15px;
+}
+
+.wide .icon {
+  margin-bottom: 0;
+}
+
+.wave {
+  background: linear-gradient(90deg, yellow, green, purple);
+}
+
+.shield {
+  background: #e0e0e0;
+  clip-path: polygon(50% 0%, 90% 25%, 75% 100%, 25% 100%, 10% 25%);
+}
+
+.heart {
+  background: #e0e0e0;
+  clip-path: path("M24 4C20 -2 10 -2 6 4C2 10 12 20 24 30C36 20 46 10 42 4C38 -2 28 -2 24 4Z");
+} */
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+  gap: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #F1F1F1;
+
+}
+
+.TOTAL {
+background: #F1F1F1;
+
+}
+
+.card {
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+
+.dark {
+  background: #111;
+  color: #fff;
+}
+
+.light {
+  background: #fff;
+  color: #111;
+}
+
+.wide {
+  grid-column: span 3;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Icônes */
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #eaeaea;
+  margin-bottom: 15px;
+}
+
+.wide .icon {
+  margin-bottom: 0;
+}
+
+.wave {
+  background: linear-gradient(90deg, yellow, green, purple);
+}
+
+.shield {
+  background: #e0e0e0;
+  clip-path: polygon(50% 0%, 90% 25%, 75% 100%, 25% 100%, 10% 25%);
+}
+
+.heart {
+  background: #e0e0e0;
+  clip-path: path("M24 4C20 -2 10 -2 6 4C2 10 12 20 24 30C36 20 46 10 42 4C38 -2 28 -2 24 4Z");
+}
+
+.star {
+  background: #e0e0e0;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.info {
+    font-size: small;
+    color: #1A1A1A;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding-left: 370px;
+    padding-top: 80px;
+    z-index: 0;
+    position: relative; 
+    width: 400px;
+    text-align: left;
+    span {
+      color: black;
+    }
+} 
+

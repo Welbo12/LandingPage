@@ -1,0 +1,36 @@
+.chat {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #83FF8F;
+
+  rotate: 9deg;
+  
+}
+
+.chien {
+  display: flex;
+  width: max-content;
+  animation: scroll 12s linear infinite;
+}
+
+.chien span {
+  font-family: "Clash Display", sans-serif; 
+  font-weight: 600;                         
+  font-style: normal;                       
+  font-size: 80px;                                   
+  letter-spacing: -1px;                    
+  color: #1A1A1A;                      
+  -webkit-text-stroke: 0.5px  #83FF8F;   
+  white-space: nowrap;
+  padding-right: 10px;         
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

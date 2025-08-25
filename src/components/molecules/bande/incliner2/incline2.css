@@ -1,0 +1,36 @@
+.chatT {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #1A1A1A;
+
+  rotate: -9deg;
+  
+}
+
+.chienT {
+  display: flex;
+  width: max-content;
+  animation: scroll 12s linear infinite;
+}
+
+.chienT span {
+  font-family: "Clash Display", sans-serif; 
+  font-weight: 600;                         
+  font-style: normal;                       
+  font-size: 80px;                                   
+  letter-spacing: -1px;                    
+  color: #ffffff;                      
+ 
+  white-space: nowrap;
+  padding-right: 10px;         
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
